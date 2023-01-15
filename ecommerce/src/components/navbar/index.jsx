@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className="flex border-[1px] border-gray-100 items-center px-4 mr-10 py-2">
           <AiOutlineSearch size={20} className="text-white mr-2" />
           <input
-            className="bg-black w-[210px] placeholder:text-gray-600"
+            className="bg-black w-[210px] outline-none placeholder:text-gray-600"
             placeholder="SEARCH MOONLIMTED.COM"
             type="text"
           />
@@ -27,7 +27,6 @@ const Navbar = () => {
           <AiOutlineHeart size={20} className="mr-5" />
           <BsHandbag size={20} className="mr-5" />
           <FaUser size={20} className="mr-5" />
-          {/* <GrUserNew/> */}
         </div>
       </div>
     </div>
